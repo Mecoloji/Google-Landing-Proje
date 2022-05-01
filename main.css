@@ -1,0 +1,291 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Fonts */
+
+
+/* HTML Start */
+html{
+    box-sizing: border-box;
+}
+/* HTML End */
+
+
+/* Body Style Start */
+body{
+    width: 100%;
+    font-size: 15px;
+    font-family: Roboto,sans-serif;
+}
+/* Body Style End */
+
+
+/* Reset */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Reset */
+
+
+/* a Style Start */
+a{
+    text-decoration: none;
+    color: #495057;
+    font-size: 14.7px;
+}
+/* a Style End */
+
+
+/* Left Nav Bar Style Start */
+.left-nav-bar{
+    display: inline-block;
+    padding: 5px;
+}
+/* Left Nav Bar Style End */
+
+
+/* Right Nav Bar Style Start */
+.right-nav-bar{
+    float: right;
+    padding: 5px;
+}
+
+.right-nav-bar button{
+    width: 75px;
+    height: 35px;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    background-color: #4285f4;
+    color: #fff;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    border: 1px solid #4285f4;
+}
+.right-nav-bar button:hover{
+    box-shadow: 0 0 8px rgba(59, 143, 212, 0.63);
+}
+/* Right Nav Bar Style End */
+
+
+/* ul Style Start */
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    padding: 8px;
+}
+/* ul Style End */
+
+
+/* appicon Style Start */
+.appicon-img{
+    vertical-align: middle;
+    opacity: 0.6;
+}
+/* appicon Style End */
+
+
+/* Main logo Style Start */
+.logo{
+    width: 290px;
+    height: 100px;
+    display: block;
+    margin: 150px auto 0;
+}
+/* Main logo Style End */
+
+
+/* Search Button Style Start */
+
+.search{
+    width: 595px;
+    height: 44px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: 28px auto;
+}
+.search:hover{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.search:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+
+.searchbar{
+    height: 43px;
+    border: none;
+    width: 470px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    left: 43px;
+}
+
+
+.search-img{
+    height: 17px;
+    position: relative;
+    right: 463px;
+    top: 3.5px;
+}
+
+.keyboard-img{
+    height: 12px;
+    position: relative;
+    left: 30px;
+    cursor: pointer;
+}
+
+.microphone-img{
+    height: 22px;
+    position: relative;
+    top: 5px;
+    left: 45px;
+    cursor: pointer;
+}
+
+
+.search-logo{
+    width: 17px;
+}
+
+.buttons{
+    text-align: center;
+}
+
+
+.button-1{
+    width: 125px;
+    height: 35px;
+    border: 2.2px solid #3031342f;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 13.5px;
+    opacity: 0.9;
+}
+
+.button-1:hover{
+    background-color: #67676b59;
+}
+
+.button-2{
+    width: 125px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 2.2px solid #3031342f;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Roboto, sans-serif;
+    font-size: 13.5px;
+    opacity: 0.9;
+}
+.button-2:hover{
+    background-color: #67676b59;
+}
+/* Search Button Style End */
+
+
+/* Language Style Start */
+.laguages-google p{
+    text-align: center;
+    margin-top: 30px;
+    opacity: 0.9;
+}
+.laguages-google a{
+    color: #114bd1;
+}
+/* Language Style End */
+
+
+/* Country Style Start */
+.country{
+    text-align: left;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 18px;
+    opacity: 0.9;
+    font-size: 16.5px;
+}
+/* Country Style End */
+
+
+/* Footer Style Start */
+footer{
+    background-color: #dee2e652;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+}
+
+.left-footer{
+    float: left;
+    margin-left: 10px;
+    font-size: 17px;
+}
+
+.right-footer{
+    float: right;
+    margin-right: 10px;
+    font-size: 17px;
+}
+/* Footer Style End */
+
+/* Social Media Style Start */
+.social-media{
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.github img{
+    width: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: invert(89%) sepia(0%) saturate(11%) hue-rotate(329deg)
+    brightness(10%) contrast(100%);
+    margin-bottom: 25px;
+}
+
+.github :hover{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+
+
+.linkedin img{
+    width: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: invert(89%) sepia(0%) saturate(11%) hue-rotate(329deg)
+    brightness(10%) contrast(100%);
+    margin-bottom: 25px;
+}
+
+.linkedin :hover{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+
+.codepen img{
+    width: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+    filter: invert(89%) sepia(0%) saturate(11%) hue-rotate(329deg)
+    brightness(10%) contrast(100%);
+    margin-bottom: 25px;
+}
+
+.codepen :hover{
+    transform: scale(1.4);
+    transition-duration: 0.5s;
+}
+/* Social Media Style End */
